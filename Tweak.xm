@@ -9,7 +9,7 @@ _shortcutViewControllerForDataProvider: <SBUIAppIconForceTouchShortcutViewContro
 - (void)_handleAppIconForceTouchGestureRecognizer:(SBUIForceTouchGestureRecognizer *)gesture {
   %orig;
   if (gesture.state == UIGestureRecognizerStateEnded) {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3.0 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.1 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
       if ([self respondsToSelector:@selector(_dismissAppIconForceTouchControllerIfNecessaryAnimated:withCompletionHandler:)]) {
         [self _dismissAppIconForceTouchControllerIfNecessaryAnimated:YES withCompletionHandler:nil];
       }
