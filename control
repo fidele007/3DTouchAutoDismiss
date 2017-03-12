@@ -1,0 +1,9 @@
+Package: com.fidele007.3dtouchautodismiss
+Name: 3DTouchAutoDismiss
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Auto dismiss 3D touch menu on touch release.
+Maintainer: fidele007 <kforcefidele@yahoo.com>
+Author: fidele007 <kforcefidele@yahoo.com>
+Section: Tweaks

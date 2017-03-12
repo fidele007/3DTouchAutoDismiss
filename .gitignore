@@ -1,0 +1,7 @@
+.theos/
+_/
+obj/
+theos
+*.deb
+packages
+*.sublime-*
